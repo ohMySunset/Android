@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButton1Clicked(View v){
-        Toast.makeText(this,"확인1 버튼이 눌렸어요.", Toast.LENGTH_LONG).show();
+        Toast.makeText(this.getApplicationContext(), "확인1 버튼이 눌렸어요.", Toast.LENGTH_LONG).show();
     }
 }
