@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
         imageView01 = findViewById(R.id.imageView);
         imageView02 = findViewById(R.id.imageView2);
 
-        Button button01 = findViewById(R.id.btn1);
+        Button button01 = findViewById(R.id.botton1);
         button01.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 moveImageUp();
             }
         });
 
-        Button button02 = findViewById(R.id.btn2);
+        Button button02 = findViewById(R.id.botton2);
         button02.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 moveImageDown();
