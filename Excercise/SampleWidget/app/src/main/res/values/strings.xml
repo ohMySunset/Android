@@ -1,4 +1,5 @@
 <resources>
+    <!-- xml파일에 view에 보여질 문자열 지정 -->
     <string name="app_name">SampleWidget</string>
-    <string name="person_name">양선경</string>
+    <string name="person_name">양선경입니다</string>
 </resources>
